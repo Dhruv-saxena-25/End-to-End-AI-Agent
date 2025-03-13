@@ -14,3 +14,4 @@ class BasicChatbotNode:
         """
         
         return {"messages":self.llm.invoke(state['messages'])}
+    
